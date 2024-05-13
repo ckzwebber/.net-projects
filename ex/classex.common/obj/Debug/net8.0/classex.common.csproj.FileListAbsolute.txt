@@ -1,0 +1,11 @@
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\bin\Debug\net8.0\classex.common.deps.json
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\bin\Debug\net8.0\classex.common.dll
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\bin\Debug\net8.0\classex.common.pdb
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\obj\Debug\net8.0\classex.common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\obj\Debug\net8.0\classex.common.AssemblyInfoInputs.cache
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\obj\Debug\net8.0\classex.common.AssemblyInfo.cs
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\obj\Debug\net8.0\classex.common.csproj.CoreCompileInputs.cache
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\obj\Debug\net8.0\classex.common.dll
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\obj\Debug\net8.0\refint\classex.common.dll
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\obj\Debug\net8.0\classex.common.pdb
+C:\Users\kacow\Desktop\Pastas\C#\ex\classex.common\obj\Debug\net8.0\ref\classex.common.dll
