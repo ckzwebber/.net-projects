@@ -18,193 +18,193 @@ foreach (string nome in listaNomes)
     Console.WriteLine($"Nome: {nome}");
 }
 
-// for (int contador = 0; contador < listaNomes.Count; contador++)
-// {
-//     Console.WriteLine($"Nome: {listaNomes[contador]}");
-// }
+for (int contador = 0; contador < listaNomes.Count; contador++)
+{
+    Console.WriteLine($"Nome: {listaNomes[contador]}");
+}
 
-// int[] arrayInteiros = new int[5];
+int[] arrayInteiros = new int[5];
 
-// arrayInteiros[0] = 10;
-// arrayInteiros[1] = 20;
-// arrayInteiros[2] = 30;
-// arrayInteiros[3] = 40;
-// arrayInteiros[4] = 50;
+arrayInteiros[0] = 10;
+arrayInteiros[1] = 20;
+arrayInteiros[2] = 30;
+arrayInteiros[3] = 40;
+arrayInteiros[4] = 50;
 
-// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
-// for (int contador = 0; contador < arrayInteiros.Length; contador++)
-// {
-//     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
-// }
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+}
 
-// int contadorForeach = 0;
-// foreach (int numero in arrayInteiros)
-// {
-//     Console.WriteLine($"Posição Nº {contadorForeach} - {numero}");
-//     contadorForeach++;
-// }
+int contadorForeach = 0;
+foreach (int numero in arrayInteiros)
+{
+    Console.WriteLine($"Posição Nº {contadorForeach} - {numero}");
+    contadorForeach++;
+}
 
-// Person person1 = new Person();
+Person person1 = new Person();
 
-// Person pessoa1 = new Person();
-// pessoa1.Nome = "Carlos Miguel";
-// pessoa1.Idade = 18;
-// pessoa1.Apresentar();
+Person pessoa1 = new Person();
+pessoa1.Nome = "Carlos Miguel";
+pessoa1.Idade = 18;
+pessoa1.Apresentar();
 
-// bool exibirMenu = true;
+bool exibirMenu = true;
 
-// while (exibirMenu)
-// {
-//     Console.WriteLine("Escolha uma opção: ");
-//     Console.WriteLine("1 - Cadastrar Cliente");
-//     Console.WriteLine("2 - Listar Clientes");
-//     Console.WriteLine("3 - Apagar Cliente");
-//     Console.WriteLine("4 - Sair");
+while (exibirMenu)
+{
+    Console.WriteLine("Escolha uma opção: ");
+    Console.WriteLine("1 - Cadastrar Cliente");
+    Console.WriteLine("2 - Listar Clientes");
+    Console.WriteLine("3 - Apagar Cliente");
+    Console.WriteLine("4 - Sair");
 
-//     int opcao = Convert.ToInt32(Console.ReadLine());
+    int opcao = Convert.ToInt32(Console.ReadLine());
 
-//     switch (opcao)
-//     {
-//         case 1:
-//             Console.WriteLine("Cadastro de Cliente");
-//             break;
-//         case 2:
-//             Console.WriteLine("Listar Clientes");
-//             break;
-//         case 3:
-//             Console.WriteLine("Apagar Cliente");
-//             break;
-//         case 4:
-//             exibirMenu = false;
-//             break;
-//         default:
-//             Console.WriteLine("Opção inválida.");
-//             break;
-//     }
-// }
-
-
-// int number = 9;
-
-// for (int i = 1; i <= 10; i++)
-// {
-//     Console.WriteLine($"{number} x {i} = {number * i}");
-// }
+    switch (opcao)
+    {
+        case 1:
+            Console.WriteLine("Cadastro de Cliente");
+            break;
+        case 2:
+            Console.WriteLine("Listar Clientes");
+            break;
+        case 3:
+            Console.WriteLine("Apagar Cliente");
+            break;
+        case 4:
+            exibirMenu = false;
+            break;
+        default:
+            Console.WriteLine("Opção inválida.");
+            break;
+    }
+}
 
 
-// Calculadora calculadora = new Calculadora();
+int number = 9;
 
-// Console.WriteLine("Escolha uma operação: ");
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine($"{number} x {i} = {number * i}");
+}
 
-// Console.WriteLine("1 - Soma");
-// Console.WriteLine("2 - Subtração");
-// Console.WriteLine("3 - Multiplicação");
-// Console.WriteLine("4 - Divisão");
-// Console.WriteLine("5 - Potência");
 
-// int operacao = Convert.ToInt32(Console.ReadLine());
+Calculadora calculadora = new Calculadora();
 
-// switch (operacao)
-// {
-//     case 1:
-//         Console.WriteLine("Digite dois números para realizar a soma: ");
-//         calculadora.Somar(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
-//         break;
+Console.WriteLine("Escolha uma operação: ");
 
-//     case 2:
-//         Console.WriteLine("Digite dois números para realizar a subtração: ");
-//         calculadora.Subtrair(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
-//         break;
+Console.WriteLine("1 - Soma");
+Console.WriteLine("2 - Subtração");
+Console.WriteLine("3 - Multiplicação");
+Console.WriteLine("4 - Divisão");
+Console.WriteLine("5 - Potência");
 
-//     case 3:
-//         Console.WriteLine("Digite dois números para realizar a multiplicação: ");
-//         calculadora.Multiplicar(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
-//         break;
+int operacao = Convert.ToInt32(Console.ReadLine());
 
-//     case 4:
-//         Console.WriteLine("Digite dois números para realizar a divisão: ");
-//         calculadora.Dividir(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
-//         break;
-//     case 5:
-//         Console.WriteLine("Digite dois números para realizar a potência: ");
-//         calculadora.Potencia(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
-//         break;
-//     default:
-//         Console.WriteLine("Operação inválida.");
-//         break;
-// }
+switch (operacao)
+{
+    case 1:
+        Console.WriteLine("Digite dois números para realizar a soma: ");
+        calculadora.Somar(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
+        break;
 
-// Console.WriteLine("Digite uma letra: ");
-// string? letra = Console.ReadLine();
+    case 2:
+        Console.WriteLine("Digite dois números para realizar a subtração: ");
+        calculadora.Subtrair(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
+        break;
 
-// switch (letra)
-// {
-//     case "a":
-//     case "e":
-//     case "i":
-//     case "o":
-//     case "u":
-//         Console.WriteLine("A letra digitada é uma vogal.");
-//         break;
-//     default:
-//         Console.WriteLine("A letra digitada é uma consoante.");
-//         break;
-// }
+    case 3:
+        Console.WriteLine("Digite dois números para realizar a multiplicação: ");
+        calculadora.Multiplicar(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
+        break;
 
-// int quantidadeEmEstoque = 10;
-// int quantidadeCompra = 5;
-// bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+    case 4:
+        Console.WriteLine("Digite dois números para realizar a divisão: ");
+        calculadora.Dividir(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
+        break;
+    case 5:
+        Console.WriteLine("Digite dois números para realizar a potência: ");
+        calculadora.Potencia(Convert.ToDouble(Console.ReadLine()), Convert.ToDouble(Console.ReadLine()));
+        break;
+    default:
+        Console.WriteLine("Operação inválida.");
+        break;
+}
 
-// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-// Console.WriteLine($"Quantidade de compra: {quantidadeCompra}");
-// Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+Console.WriteLine("Digite uma letra: ");
+string? letra = Console.ReadLine();
 
-// if (possivelVenda)
-// {
-//     quantidadeEmEstoque -= quantidadeCompra;
-//     Console.WriteLine($"Venda realizada com sucesso! Quantidade em estoque: {quantidadeEmEstoque}");
-// }
-// else
-// {
-//     Console.WriteLine("Não foi possível realizar a venda, pois a quantidade em estoque é insuficiente.");
-// }
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("A letra digitada é uma vogal.");
+        break;
+    default:
+        Console.WriteLine("A letra digitada é uma consoante.");
+        break;
+}
 
-// string a = "15-";
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 5;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-// int b = 0;
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade de compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
 
-// int.TryParse(a, out b);
+if (possivelVenda)
+{
+    quantidadeEmEstoque -= quantidadeCompra;
+    Console.WriteLine($"Venda realizada com sucesso! Quantidade em estoque: {quantidadeEmEstoque}");
+}
+else
+{
+    Console.WriteLine("Não foi possível realizar a venda, pois a quantidade em estoque é insuficiente.");
+}
 
-//tring number = "150";
+string a = "15-";
 
-//int numberInt = Convert.ToInt32(number);
+int b = 0;
 
-// Console.WriteLine(numberInt);
+int.TryParse(a, out b);
 
-// DateTime dataAtual = DateTime.Now.AddDays(5);
-// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+tring number = "150";
 
-// string apresentacao = "Olá, seja bem vindo";
+int numberInt = Convert.ToInt32(number);
 
-// int quantidade = 50;
+Console.WriteLine(numberInt);
 
-// double altura = 1.80;
+DateTime dataAtual = DateTime.Now.AddDays(5);
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
-// decimal preco = 10.50M;
+string apresentacao = "Olá, seja bem vindo";
 
-// bool condicao = true;
+int quantidade = 50;
 
-// Console.WriteLine(apresentacao);
-// Console.WriteLine("O valor da variável quantidade é: " + quantidade);
-// Console.WriteLine("O valor da variável altura é: " + altura);
-// Console.WriteLine("O valor da variável preco é: " + preco);
-// Console.WriteLine("O valor da variável condicao é: " + condicao);
+double altura = 1.80;
 
-// Person person1 = new Person();
+decimal preco = 10.50M;
 
-// person1.Nome = "Carlos Miguel";
+bool condicao = true;
 
-// person1.Idade = 18;
+Console.WriteLine(apresentacao);
+Console.WriteLine("O valor da variável quantidade é: " + quantidade);
+Console.WriteLine("O valor da variável altura é: " + altura);
+Console.WriteLine("O valor da variável preco é: " + preco);
+Console.WriteLine("O valor da variável condicao é: " + condicao);
 
-// person1.Apresentar();
+Person person1 = new Person();
+
+person1.Nome = "Carlos Miguel";
+
+person1.Idade = 18;
+
+person1.Apresentar();
