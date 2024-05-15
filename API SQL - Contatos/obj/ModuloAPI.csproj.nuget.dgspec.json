@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kacow\\Desktop\\Pastas\\Programação\\ModuloAPI\\ModuloAPI.csproj": {}
+    "C:\\Users\\kacow\\Desktop\\Aprendizagem-.NET\\API SQL - Contatos\\ModuloAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kacow\\Desktop\\Pastas\\Programação\\ModuloAPI\\ModuloAPI.csproj": {
+    "C:\\Users\\kacow\\Desktop\\Aprendizagem-.NET\\API SQL - Contatos\\ModuloAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kacow\\Desktop\\Pastas\\Programação\\ModuloAPI\\ModuloAPI.csproj",
+        "projectUniqueName": "C:\\Users\\kacow\\Desktop\\Aprendizagem-.NET\\API SQL - Contatos\\ModuloAPI.csproj",
         "projectName": "ModuloAPI",
-        "projectPath": "C:\\Users\\kacow\\Desktop\\Pastas\\Programação\\ModuloAPI\\ModuloAPI.csproj",
+        "projectPath": "C:\\Users\\kacow\\Desktop\\Aprendizagem-.NET\\API SQL - Contatos\\ModuloAPI.csproj",
         "packagesPath": "C:\\Users\\kacow\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kacow\\Desktop\\Pastas\\Programação\\ModuloAPI\\obj\\",
+        "outputPath": "C:\\Users\\kacow\\Desktop\\Aprendizagem-.NET\\API SQL - Contatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kacow\\AppData\\Roaming\\NuGet\\NuGet.Config"
