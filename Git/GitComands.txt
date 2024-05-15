@@ -1,0 +1,47 @@
+--- Comandos Git ---
+
+--- Manipular Arquivos --- 
+cd (diretorio)
+ls (lista)
+
+--- Commit e Adds ---
+git add . (adiciona todos os arquivos editados)
+git reset index.html (reverte as alterações)
+git diff index.html (mostra a diferença)
+git status (mostra os arquivos adicionados)
+git commit -m "Nome do commit" (da commit nos arquivos adicionados)
+git commit -a -m "Nome do commit" (da commit direto)
+
+--- Logs ---
+git log (mostra o Log)
+git shortlog (mostra o Log)
+
+--- Branchs ---
+git branch (lista as branchs)
+git branch dev (new branch dev)
+git branch -D dev (delet branch dev)
+git checkout dev (troca para a branch dev)
+git diff dev main (mostra diferença entre a branch dev e main)
+
+--- Repositorios Remotos ---
+git remote add origin link.git (adiciona o repositorio)
+git remote -v (mostra os links)
+git push -u origin main (envia para o repositorio)
+git remote remove origin (remove a alteração)
+git pull origin main (puxa o repositorio para o local)
+git clone link.git (clona o repositorio)
+git remote show origin (url)
+git checkout main (troca para branch main)
+git merge dev (junta as duas)
+git merge --continue
+git rebase main (atualiza a main)
+git rebase nova_feature
+git tag v2024 (utilizado para marcar versões)
+git tag -d (TAG) (deleta a tag)
+git checkout -- (restaura tudo)
+git reset --hard HEAD (reseta mesmo no stage)
+git reset --hard HEAD~1 (reseta o ultimo commit)
+git stash (guarda mudanças)
+git stash pop (aplica as mudanças)
+
+rm -rf .git (exclui repositorio git)
