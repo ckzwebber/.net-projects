@@ -15,7 +15,7 @@ De forma geral, desenvolvi C#, ASP.NET Core, Entity Framework e uma API.
 
 ## Recursos Adicionais
 
-Lhes deixo aqui alguns links utéis acerca do .net:
+Lhes deixo aqui alguns links úteis acerca do .net:
 
 - [Documentação oficial do .NET](https://docs.microsoft.com/pt-br/dotnet/)
 - [Cursos da Digital Innovation One (DIO)](https://digitalinnovation.one/)
