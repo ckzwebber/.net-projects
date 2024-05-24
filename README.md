@@ -13,6 +13,10 @@ De forma geral, desenvolvi C#, ASP.NET Core, Entity Framework e uma API.
 - `SQL - Introdução/`: Comandos e exemplos de consultas SQL.
 - `Git/`: Comandos e práticas relacionadas ao Git.
 
+## Contribuições
+
+Fique a vontade para dar uma olhada no código e contribuir. Deixe seu feedback!
+
 ## Recursos Adicionais
 
 Lhes deixo aqui alguns links úteis acerca do .net:
@@ -23,4 +27,4 @@ Lhes deixo aqui alguns links úteis acerca do .net:
 
 ## Contato
 
-Fique a vontade para entrar em contato comigo pelo meu <a href="https://steamcommunity.com/id/ckzwebber" target="_blank">LinkedIn</a>, até mais! 👋
+Fique a vontade para entrar em contato comigo pelo meu <a href="https://www.linkedin.com/in/cmiguelwm/" target="_blank">LinkedIn</a>, até mais! 👋
