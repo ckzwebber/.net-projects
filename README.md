@@ -4,7 +4,8 @@ Seja bem-vindo! É aqui que deixo meus programas e testes desenvolvidos durante 
 
 ## Sobre
 
-De forma geral, desenvolvi C#, ASP.NET Core, Entity Framework e uma API.
+De forma geral, desenvolvi C#, ASP.NET Core, Entity Framework e uma API.<br>
+- **Tecnologias:** .NET.
 
 ## Estrutura do Repositório
 
